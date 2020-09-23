@@ -1,21 +1,21 @@
 {
     "workbench.colorCustomizations": {
-        "activityBar.activeBackground": "#93e6fc",
-        "activityBar.activeBorder": "#fa45d4",
-        "activityBar.background": "#93e6fc",
+        "activityBar.activeBackground": "#aae981",
+        "activityBar.activeBorder": "#5c91e3",
+        "activityBar.background": "#aae981",
         "activityBar.foreground": "#15202b",
         "activityBar.inactiveForeground": "#15202b99",
-        "activityBarBadge.background": "#fa45d4",
+        "activityBarBadge.background": "#5c91e3",
         "activityBarBadge.foreground": "#15202b",
-        "statusBar.background": "#61dafb",
+        "statusBar.background": "#8de156",
         "statusBar.foreground": "#15202b",
-        "statusBarItem.hoverBackground": "#2fcefa",
-        "titleBar.activeBackground": "#61dafb",
+        "statusBarItem.hoverBackground": "#70d92b",
+        "titleBar.activeBackground": "#8de156",
         "titleBar.activeForeground": "#15202b",
-        "titleBar.inactiveBackground": "#61dafb99",
+        "titleBar.inactiveBackground": "#8de15699",
         "titleBar.inactiveForeground": "#15202b99"
     },
-    "peacock.color": "#61dafb",
+    "peacock.color": "#8de156",
     "cSpell.words": [
         "cassio",
         "Cassioblu"

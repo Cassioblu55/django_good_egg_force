@@ -1,0 +1,26 @@
+version: '3.6'
+
+services:
+  db:
+    image: postgres:10.4
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+  cache:
+    image: redis:4.0.10
+    volumes:
+      - redis_data:/data
+  web:
+    build: .
+    image: force
+    command: bash -c "gunicorn app.wsgi:application -b 0.0.0.0:8000"
+    ports:
+        - "8000:8000"
+    volumes:
+      - .:/app
+    depends_on:
+      - db
+      - cache
+
+volumes:
+  postgres_data:
+  redis_data:
